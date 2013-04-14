@@ -170,5 +170,5 @@ insert into Member (id, name, email) values (167,'ville.wuotila@virmed.fi','vill
 insert into Member (id, name, email) values (168,'villefin89@gmail.com','Ville Niemi')
 insert into Member (id, name, email) values (169,'villi@iki.fi','Ville Lindfors')
 insert into Member (id, name, email) values (170,'vp.tynkkynen@elisanet.fi','vp.tynkkynen@elisanet.fi')
-insert into Member (id, name, email) values (171,'zigaphau@gmail.com','MPTS')
+insert into Member (id, name, email) values (0,'zigaphau@gmail.com','MPTS')
 

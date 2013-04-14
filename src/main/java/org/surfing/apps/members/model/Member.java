@@ -37,9 +37,6 @@ public class Member implements Serializable {
     @Email
     private String email;
 
-    @Column(name = "phone_number")
-    private String phoneNumber;
-
     public Long getId() {
         return id;
     }
@@ -64,11 +61,4 @@ public class Member implements Serializable {
         this.email = email;
     }
 
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
 }
