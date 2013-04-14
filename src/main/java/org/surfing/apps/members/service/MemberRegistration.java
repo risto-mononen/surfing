@@ -14,9 +14,9 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.as.quickstarts.kitchensink.service;
+package org.surfing.apps.members.service;
 
-import org.jboss.as.quickstarts.kitchensink.model.Member;
+import org.surfing.apps.members.model.Member;
 
 import javax.ejb.Stateless;
 import javax.enterprise.event.Event;

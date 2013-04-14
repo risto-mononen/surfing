@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.as.quickstarts.kitchensink.controller;
+package org.surfing.apps.members.controller;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.inject.Model;
@@ -24,8 +24,8 @@ import javax.faces.context.FacesContext;
 import javax.inject.Inject;
 import javax.inject.Named;
 
-import org.jboss.as.quickstarts.kitchensink.model.Member;
-import org.jboss.as.quickstarts.kitchensink.service.MemberRegistration;
+import org.surfing.apps.members.model.Member;
+import org.surfing.apps.members.service.MemberRegistration;
 
 // The @Model stereotype is a convenience mechanism to make this a request-scoped bean that has an
 // EL name

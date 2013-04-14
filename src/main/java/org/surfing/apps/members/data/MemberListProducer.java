@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.as.quickstarts.kitchensink.data;
+package org.surfing.apps.members.data;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.RequestScoped;
@@ -25,7 +25,7 @@ import javax.inject.Inject;
 import javax.inject.Named;
 import java.util.List;
 
-import org.jboss.as.quickstarts.kitchensink.model.Member;
+import org.surfing.apps.members.model.Member;
 
 @RequestScoped
 public class MemberListProducer {

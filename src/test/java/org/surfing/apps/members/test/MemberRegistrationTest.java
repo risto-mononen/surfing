@@ -14,7 +14,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package org.jboss.as.quickstarts.kitchensink.test;
+package org.surfing.apps.members.test;
 
 import static org.junit.Assert.assertNotNull;
 
@@ -24,9 +24,9 @@ import javax.inject.Inject;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
-import org.jboss.as.quickstarts.kitchensink.model.Member;
-import org.jboss.as.quickstarts.kitchensink.service.MemberRegistration;
-import org.jboss.as.quickstarts.kitchensink.util.Resources;
+import org.surfing.apps.members.model.Member;
+import org.surfing.apps.members.service.MemberRegistration;
+import org.surfing.apps.members.util.Resources;
 import org.jboss.shrinkwrap.api.Archive;
 import org.jboss.shrinkwrap.api.ShrinkWrap;
 import org.jboss.shrinkwrap.api.asset.EmptyAsset;
