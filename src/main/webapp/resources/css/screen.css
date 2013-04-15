@@ -32,7 +32,7 @@ body {
   border-right: 5px solid #8c8f91;
   border-bottom: 25px solid #8c8f91;
   width: 865px; /* subtract 40px from banner width for padding */
-  background: #FFFFFF;
+  background: #bbddff;
   background-image: url(#{request.contextPath}/resources/gfx/headerbkg.png);
   background-repeat: repeat-x;
   padding-top: 30px;
@@ -59,8 +59,8 @@ body {
   padding-left: 30px;
 }
 .dualbrand {
-  float: right;
-  padding-right: 10px;
+  padding-right: 50px;
+  padding-left: 50px;
 }
 #footer {
   clear: both;
